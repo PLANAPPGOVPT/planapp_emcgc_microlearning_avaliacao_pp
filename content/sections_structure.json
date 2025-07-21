@@ -6,9 +6,9 @@
     "button_text": "Continuar"
   },
   {
-    "title": "Conhece a Ema 🏠",
+    "title": "Conhece a Ema",
     "text": "Aqui está a Ema Ávila. É técnica num organismo da administração pública, na área da habitação. Foi encarregada, pela diretora do organismo, de conduzir uma avaliação do programa Habitação Garantida.",
-    "image_path": "content/Assets/ema.png",
+    "image_path": "content/Assets/section1.png",
     "button_text": "Continuar"
   },
   {
@@ -32,8 +32,8 @@
   },
   {
     "title": "Foco da avaliação",
-    "text": "A Ema está em reunião com a diretora e vários colegas. Um dos pontos da ordem de trabalhos é a avaliação do programa Habitação Garantida, que deverá iniciar-se o quanto antes. Esta avaliação tem de estar concluída no prazo de seis meses, para informar em tempo útil as decisões administrativas e políticas quanto à continuidade do programa.\n\n– E o que se pretende ao certo com a avaliação? – pergunta a Ema.\n\n– Ainda bem que pergunta – responde a diretora, assentindo com a cabeça. – É esperado que a avaliação descubra se o programa está a ser implementado da melhor maneira e quais as consequências reais que está a ter no acesso dos cidadãos a habitação condigna.\n\n – Estou esclarecida. Será então uma avaliação de…",
-    "question_multiple": "O que se pretende avaliar no Habitação Garantida?",
+    "text": "",
+    "question_multiple": "A Ema está em reunião com a diretora e vários colegas. Um dos pontos da ordem de trabalhos é a avaliação do programa Habitação Garantida, que deverá iniciar-se o quanto antes. Esta avaliação tem de estar concluída no prazo de seis meses, para informar em tempo útil as decisões administrativas e políticas quanto à continuidade do programa.\n\n– E o que se pretende ao certo com a avaliação? – pergunta a Ema.\n\n– Ainda bem que pergunta – responde a diretora, assentindo com a cabeça. – É esperado que a avaliação descubra se o programa está a ser implementado da melhor maneira e quais as consequências reais que está a ter no acesso dos cidadãos a habitação condigna.\n\n – Estou esclarecida. Será então uma avaliação de…",
     "options": [
       "Processo",
       "Impacto",
@@ -45,8 +45,8 @@
       "Impacto"
     ],
     "explanations": {
-      "Processo": "Analisa se as atividades ocorrem como planeado.",
-      "Impacto": "Analisa efeitos no acesso à habitação.",
+      "Processo": "A avaliação de processo centra-se na implementação da política, aferindo se as atividades concretizadas correspondem ao planeado e necessário.",
+      "Impacto": "A avaliação de impacto centra-se nos efeitos da política e nas interações desses efeitos com fatores externos.",
       "Custo-benefício": "Não foi pedido calcular custos versus benefícios.",
       "Desempenho": "Não foi solicitada esta abordagem."
     },
