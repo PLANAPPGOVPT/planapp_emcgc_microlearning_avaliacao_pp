@@ -1,0 +1,10 @@
+[project]
+name = "planapp-emcgc-microlearning-avaliacao-pp"
+version = "0.1.0"
+description = "Microlearning application for public policy evaluation guide"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.28.0",
+    "pillow>=10.0.0"
+]
