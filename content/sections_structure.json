@@ -1,20 +1,29 @@
 [
   {
-    "title": "O que é o Guia para a Avaliação de Políticas Públicas?",
-    "text": "É um documento de caráter prático com o intuito de apoiar e orientar avaliações de políticas públicas. Com base em pesquisa bibliográfica e análise de casos práticos, reúne os principais conceitos, etapas e metodologias de avaliação, bem como recomendações gerais e cuidados a tomar.\n\nFoi elaborado pelo Centro de Planeamento e de Avaliação de Políticas Públicas (PLANAPP). Destina-se a técnicos da administração pública e a outras instituições que promovam, realizem ou contratem avaliações. Publicado em dezembro de 2024, é revisto periodicamente.",
+    "id": "section_1",
+    "title": "Objetivo",
+    "text": "Este percurso apresenta o Guia para a Avaliação de Políticas Públicas, através de um caso prático inspirado em situações reais. [original] Apresentar o Guia para a Avaliação de Políticas Públicas, através de um caso prático, ficcionado com base em experiências reais.",
     "image_path": "content/Assets/cover.png",
     "button_text": "Continuar"
   },
   {
-    "title": "Conhece a Ema",
-    "text": "Aqui está a Ema Ávila. É técnica num organismo da administração pública, na área da habitação. Foi encarregada, pela diretora do organismo, de conduzir uma avaliação do programa Habitação Garantida.",
+    "id": "section_2",
+    "title": "O que é o Guia para a Avaliação de Políticas Públicas?",
+    "text": "É um documento de caráter prático com o intuito de apoiar e orientar avaliações de políticas públicas. Com base em pesquisa bibliográfica e análise de casos práticos, reúne os principais conceitos, etapas e metodologias de avaliação, bem como recomendações gerais e cuidados a tomar.\n\nFoi elaborado pelo Centro de Planeamento e de Avaliação de Políticas Públicas (PLANAPP), no âmbito da sua coleção Ferramentas e Guias Metodológicos. Destina-se predominantemente a técnicos/as da administração pública e profissionais de quaisquer outras instituições que promovam, realizem ou contratem avaliações.\n\nPublicado em dezembro de 2024, trata-se, pela sua natureza, de um documento sujeito a atualizações periódicas.",
+    "image_path": "content/Assets/cover.png",
+    "button_text": "Continuar"
+  },
+  {
+    "id": "section_3",
+    "title": "[sem título disponível no texto original]",
+    "text": "Aqui está a Ema Ávila\nÉ técnica num organismo da administração pública, na área da habitação.\nFoi encarregada, pela diretora do organismo, de conduzir uma avaliação do programa Habitação Garantida.",
     "image_path": "content/Assets/section1.png",
     "button_text": "Continuar"
   },
   {
-    "title": "Tipo de avaliação",
-    "text": "A Ema começa por estudar o programa. O Habitação Garantida é um programa público que está a ser implementado a nível nacional. O seu objetivo é concretizar efetivamente a legislação – Constituição da República Portuguesa e Lei de Bases da Habitação – que incumbe o Estado de garantir o direito à habitação. Para esse fim, o programa é constituído por um conjunto de medidas, incluindo subsídios ao arrendamento, benefícios fiscais e controlos de preços. O programa começou a ser implementado há quatro anos. Está na altura de decidir se deve prosseguir tal como está, ser alterado em algum aspeto ou ser cessado. A avaliação de que a Ema está encarregada, portanto, é uma…",
-    "question": "O programa começou há quatro anos. Que tipo de avaliação é a da Ema?",
+    "id": "section_4",
+    "title": "[sem título disponível no texto original] Estudo inicial da Ema",
+    "question": "A Ema começa por estudar o programa.\nO Habitação Garantida é um programa público que está a ser implementado a nível nacional. O seu objetivo é concretizar efetivamente a legislação – Constituição da República Portuguesa e Lei de Bases da Habitação – que incumbe o Estado de garantir o direito à habitação. Para esse fim, o programa é constituído por um conjunto de medidas, incluindo subsídios ao arrendamento, benefícios fiscais e controlos de preços.\nO programa começou a ser implementado há quatro anos. Está na altura de decidir se deve prosseguir tal como está, ser alterado em algum aspeto ou ser cessado. A avaliação de que a Ema está encarregada, portanto, é uma…",
     "options": [
       "Avaliação ex ante",
       "Avaliação ongoing",
@@ -24,16 +33,16 @@
       "Avaliação ongoing"
     ],
     "explanations": {
-      "Avaliação ex ante": "Planeada antes da implementação – não é o caso.",
-      "Avaliação ongoing": "Ongoing ocorre durante a execução.",
-      "Avaliação ex post": "É feita depois de vários anos de execução para decidir futuro do programa."
+      "Avaliação ex ante": "[sem explicação disponível no texto original] Avaliação ex ante – ocorre antes da implementação de uma política",
+      "Avaliação ongoing": "[sem explicação disponível no texto original] Avaliação ongoing – acompanha a execução em curso e apoia decisões de ajustamento",
+      "Avaliação ex post": "[sem explicação disponível no texto original] Avaliação ex post – analisa os efeitos após a conclusão da execução"
     },
     "button_answer": "Continuar"
   },
   {
-    "title": "Foco da avaliação",
-    "text": "",
-    "question_multiple": "A Ema está em reunião com a diretora e vários colegas. Um dos pontos da ordem de trabalhos é a avaliação do programa Habitação Garantida, que deverá iniciar-se o quanto antes. Esta avaliação tem de estar concluída no prazo de seis meses, para informar em tempo útil as decisões administrativas e políticas quanto à continuidade do programa.\n\n– E o que se pretende ao certo com a avaliação? – pergunta a Ema.\n\n– Ainda bem que pergunta – responde a diretora, assentindo com a cabeça. – É esperado que a avaliação descubra se o programa está a ser implementado da melhor maneira e quais as consequências reais que está a ter no acesso dos cidadãos a habitação condigna.\n\n – Estou esclarecida. Será então uma avaliação de…",
+    "id": "section_5",
+    "title": "[sem título disponível no texto original] Reunião com a diretora",
+    "question_multiple": "A Ema está em reunião com a diretora e vários colegas. Um dos pontos da ordem de trabalhos é a avaliação do programa Habitação Garantida, que deverá iniciar-se o quanto antes. Esta avaliação tem de estar concluída no prazo de seis meses, para informar em tempo útil as decisões administrativas e políticas quanto à continuidade do programa.\n– E o que se pretende ao certo com a avaliação? – pergunta a Ema.\n– Ainda bem que pergunta – responde a diretora, assentindo com a cabeça. – É esperado que a avaliação descubra se o programa está a ser implementado da melhor maneira e quais as consequências reais que está a ter no acesso dos cidadãos a habitação condigna.\n– Estou esclarecida. Será então uma avaliação de…",
     "options": [
       "Processo",
       "Impacto",
@@ -47,82 +56,115 @@
     "explanations": {
       "Processo": "A avaliação de processo centra-se na implementação da política, aferindo se as atividades concretizadas correspondem ao planeado e necessário.",
       "Impacto": "A avaliação de impacto centra-se nos efeitos da política e nas interações desses efeitos com fatores externos.",
-      "Custo-benefício": "Não foi pedido calcular custos versus benefícios.",
-      "Desempenho": "Não foi solicitada esta abordagem."
+      "Custo-benefício": "[sem explicação disponível no texto original] A avaliação custo-benefício compara custos com resultados alcançados.",
+      "Desempenho": "[sem explicação disponível no texto original] A avaliação de desempenho analisa a eficácia e eficiência da política no seu conjunto."
     },
     "button_answer": "Continuar"
   },
   {
-    "title": "Primeiros passos da equipa",
+    "id": "section_6",
+    "title": "[sem título disponível no texto original] Durante a reunião, a Ema percebe que alguns dos colegas têm pouca experiência",
     "question_multiple": "Durante a reunião, a Ema percebe que alguns dos colegas presentes têm pouco conhecimento e experiência em avaliação de políticas públicas. Nada de surpreendente, pois a responsável por essa área de trabalho é ela. Por isso, decide aproveitar a reunião para…",
     "options": [
-      "Explicar sucintamente em que consiste a avaliação de uma política pública",
-      "Pedir recursos disponíveis para a avaliação",
-      "Definir métodos de recolha e análise de dados",
-      "Elaborar o guião do questionário aos beneficiários"
+      "Explicar sucintamente em que consiste a avaliação de uma política pública, incluindo os seus benefícios e limitações.",
+      "Pedir à diretora que clarifique quais são os recursos (equipa, tempo, verba, etc.) disponíveis para realizar a avaliação em causa.",
+      "Definir os métodos de recolha e análise de dados que serão utilizados ao longo da avaliação.",
+      "Elaborar o guião do questionário que será aplicado aos beneficiários do programa para avaliar a eficácia do mesmo."
     ],
     "answer": [
-      "Explicar sucintamente em que consiste a avaliação de uma política pública",
-      "Pedir recursos disponíveis para a avaliação"
+      "Explicar sucintamente em que consiste a avaliação de uma política pública, incluindo os seus benefícios e limitações.",
+      "Pedir à diretora que clarifique quais são os recursos (equipa, tempo, verba, etc.) disponíveis para realizar a avaliação em causa."
     ],
     "explanations": {
-      "Explicar sucintamente em que consiste a avaliação de uma política pública": "tomada de decisão baseada em evidências, prestação de contas e produção de conhecimento / não se substitui à política, não faz juízos de valor absolutos sobre se a política deve continuar ou não",
-      "Pedir recursos disponíveis para a avaliação": "Permite planear trabalho de acordo com tempo e orçamento.",
-      "Definir métodos de recolha e análise de dados": "É preciso delinear a metodologia antes de avançar.",
-      "Elaborar o guião do questionário aos beneficiários": "Etapa prematura sem questões e métodos definidos."
+      "Explicar sucintamente em que consiste a avaliação de uma política pública, incluindo os seus benefícios e limitações.": "Tomada de decisão baseada em evidências, prestação de contas e produção de conhecimento; não se substitui à política, não faz juízos de valor absolutos sobre se a política deve continuar ou não.",
+      "Pedir à diretora que clarifique quais são os recursos (equipa, tempo, verba, etc.) disponíveis para realizar a avaliação em causa.": "[sem explicação disponível no texto original] Clarificar recursos permite preparar o planeamento da avaliação.",
+      "Definir os métodos de recolha e análise de dados que serão utilizados ao longo da avaliação.": "[sem explicação disponível no texto original] Métodos devem ser definidos depois de estabelecidos os objetivos e questões de avaliação.",
+      "Elaborar o guião do questionário que será aplicado aos beneficiários do programa para avaliar a eficácia do mesmo.": "[sem explicação disponível no texto original] Elaborar instrumentos é uma tarefa posterior à definição do plano."
     },
     "button_answer": "Continuar"
   },
   {
-    "title": "Consultar quem?",
-    "question_multiple": "Para a realização da avaliação, foi designada uma equipa de quatro técnicos, que trabalharão sob a coordenação da Ema.\n\nA equipa lança-se ao trabalho.\n\nO primeiro passo é analisar os detalhes do programa Habitação Garantida, identificando a legislação relevante, os procedimentos de implementação das várias medidas que integram o programa e os indicadores disponíveis nas bases de dados de monitorização. Isto ajudará a equipa a definir as questões de avaliação, isto é, as perguntas concretas a que a avaliação responderá. Nesta fase do trabalho, a Ema determina que a equipa deve consultar:",
+    "id": "section_7",
+    "title": "[sem título disponível no texto original] Primeiras tarefas da equipa de avaliação",
+    "question_multiple": "Para a realização da avaliação, foi designada uma equipa de quatro técnicos, que trabalharão sob a coordenação da Ema.\n\nA equipa lança-se ao trabalho.\n\nO primeiro passo é analisar os detalhes do programa Habitação Garantida, identificando a legislação relevante, os procedimentos de implementação das várias medidas que integram o programa e os indicadores disponíveis nas bases de dados de monitorização. Isto ajudará a equipa a definir as questões de avaliação, isto é, as perguntas concretas a que a avaliação responderá.\n\nNesta fase do trabalho, a Ema determina que a equipa deve consultar:",
     "options": [
-      "Outros organismos da Administração Pública",
-      "Académicos",
-      "Deputados de todos os grupos parlamentares",
-      "Beneficiários do programa"
+      "Outros organismos da Administração Pública que possam ter conhecimentos ou dados úteis para a avaliação.",
+      "Académicos com conhecimento especializado sobre habitação e políticas públicas nesta área.",
+      "Deputados da Assembleia da República representativos de todos os grupos parlamentares.",
+      "Beneficiários do programa Habitação Garantida."
     ],
     "answer": [
-      "Outros organismos da Administração Pública",
-      "Académicos",
-      "Beneficiários do programa"
+      "Outros organismos da Administração Pública que possam ter conhecimentos ou dados úteis para a avaliação.",
+      "Académicos com conhecimento especializado sobre habitação e políticas públicas nesta área.",
+      "Beneficiários do programa Habitação Garantida."
     ],
     "explanations": {
-      "Outros organismos da Administração Pública": "Podem ter dados e experiência relevantes.",
-      "Académicos": "Têm conhecimento especializado sobre habitação.",
-      "Deputados de todos os grupos parlamentares": "Não é necessário para a fase técnica.",
-      "Beneficiários do programa": "São fonte direta de evidência."
+      "Outros organismos da Administração Pública que possam ter conhecimentos ou dados úteis para a avaliação.": "[sem explicação disponível no texto original] Têm dados administrativos e operacionais sobre a execução do programa.",
+      "Académicos com conhecimento especializado sobre habitação e políticas públicas nesta área.": "[sem explicação disponível no texto original] Podem partilhar conhecimento técnico e enquadramento teórico.",
+      "Deputados da Assembleia da República representativos de todos os grupos parlamentares.": "[sem explicação disponível no texto original] Contribuem para a legitimidade política do processo, mas não são parte técnica.",
+      "Beneficiários do programa Habitação Garantida.": "[sem explicação disponível no texto original] Podem dar testemunho relevante, mas não são foco prioritário nesta fase. [texto marcado a amarelo no texto original, será certo?]"
     },
     "button_answer": "Continuar"
   },
   {
-    "title": "Definição das questões de avaliação",
-    "question_multiple": "Após a pesquisa documental e a consulta a técnicos e académicos, a equipa reúne-se para definir as questões de avaliação. São sugeridas um total de doze questões. Quais são aquelas que a equipa decide incluir?",
-    "options": [
-      "Quais os objetivos cumpridos e não cumpridos?",
-      "Quantas pessoas obtiveram habitação só graças ao programa?",
-      "Qual é o nível de satisfação dos beneficiários?",
-      "O programa teve efeitos indesejados no mercado imobiliário?",
-      "O programa é uma boa ou má opção política?"
-    ],
-    "answer": [
-      "Quais os objetivos cumpridos e não cumpridos?",
-      "Quantas pessoas obtiveram habitação só graças ao programa?",
-      "Qual é o nível de satisfação dos beneficiários?",
-      "O programa teve efeitos indesejados no mercado imobiliário?"
-    ],
-    "explanations": {
-      "Quais os objetivos cumpridos e não cumpridos?": "Permite medir eficácia face a metas.",
-      "Quantas pessoas obtiveram habitação só graças ao programa?": "Avalia efeito adicional.",
-      "Qual é o nível de satisfação dos beneficiários?": "Avalia qualidade percebida.",
-      "O programa teve efeitos indesejados no mercado imobiliário?": "Identifica externalidades.",
-      "O programa é uma boa ou má opção política?": "Questão demasiado ampla e subjetiva."
-    },
-    "button_answer": "Continuar"
+    "id": "section_8",
+    "title": "[sem título disponível no texto original] Definição das questões de avaliação",
+    "text": "Após a pesquisa documental e a consulta a técnicos e académicos, a equipa reúne-se para definir as questões de avaliação. São sugeridas um total de doze questões.\n\nSelecione as questões que a equipa decide incluir na avaliação:",
+    "script_path": "src/questoes_avaliacao.py",
+    "button_text": "Continuar"
   },
   {
-    "title": "Método de inferência causal",
+    "id": "section_9",
+    "title": "[sem título disponível no texto original] Seleção dos métodos de avaliação",
     "question_multiple": "As questões de avaliação estão definidas. A equipa lança-se à tarefa seguinte: selecionar os métodos que utilizará para responder às questões de avaliação.\nSerão métodos quantitativos, qualitativos ou mistos? Que dados terão de recolher? Como irão recolhê-los? E como analisarão os dados recolhidos?\nPara selecionar os métodos mais adequados, a equipa toma em consideração não só as questões de avaliação, mas também:",
+    "options": [
+      "As características do programa Habitação Garantida, em particular a sua dimensão, o modo de implementação e a maior ou menor facilidade para identificar as pessoas beneficiárias.",
+      "Uma revisão sucinta de estudos académicos que desenvolveram metodologias específicas para avaliar políticas públicas de habitação, neste ou noutros países.",
+      "As competências que os membros da equipa de avaliação possuem na aplicação dos vários métodos possíveis.",
+      "A necessidade de definir uma metodologia fácil e imediatamente compreensível por todas as pessoas que vierem a ler os resultados da avaliação."
+    ],
+    "answer": [
+      "As características do programa Habitação Garantida, em particular a sua dimensão, o modo de implementação e a maior ou menor facilidade para identificar as pessoas beneficiárias.",
+      "Uma revisão sucinta de estudos académicos que desenvolveram metodologias específicas para avaliar políticas públicas de habitação, neste ou noutros países.",
+      "As competências que os membros da equipa de avaliação possuem na aplicação dos vários métodos possíveis."
+    ],
+    "explanations": {
+      "[sem explicação disponível no texto original]": ""
+    },
+    "button_answer": "Continuar"
+  },
+  {
+    "id": "section_10",
+    "title": "[sem título disponível no texto original] Métodos de recolha e análise de dados",
+    "question_multiple": "A equipa decidiu que recolherá dados através de:\n1.\tAnálise da base de dados do programa, incluindo indicadores de execução e perfil dos beneficiários.\n2.\tUm questionário a aplicar aos beneficiários do Habitação Garantida.\n3.\tGrupos de discussão com técnicos.\n4.\tObservação em três locais distintos.\nEstes dados serão analisados através das técnicas de…",
+    "options": [
+      "Estatística descritiva",
+      "Inferência Estatística",
+      "Análise temática",
+      "Análise de discurso",
+      "Análise comparativa de casos"
+    ],
+    "answer": [
+      "Estatística descritiva",
+      "Inferência Estatística",
+      "Análise temática",
+      "Análise de discurso",
+      "Análise comparativa de casos"
+    ],
+    "explanations": {
+      "Estatística descritiva": "Estatística descritiva » 1, 2 [As explicações devem servir de apoio à aprendizagem e serem descritivas ajuda nesse objetivo]",
+      "Inferência Estatística": "Inferência Estatística » 1, 2 [texto marcado a amarelo no texto original, será certo?]",
+      "Análise temática": "Análise temática » 3",
+      "Análise de discurso": "Análise de discurso » 2, 3 [texto marcado a amarelo no texto original, será certo?]",
+      "Análise comparativa de casos": "Análise comparativa de casos » 4"
+    },
+    "button_answer": "Continuar"
+  },
+  {
+    "id": "section_11",
+    "title": "[sem título disponível no texto original] Escolha da lógica de inferência causal",
+    "text": "Avaliar o impacto de uma política pública é particularmente exigente. Requer, desde logo, que a equipa de avaliação adote uma lógica de inferência causal, isto é, um modo de inferir a causalidade entre a intervenção e o seu impacto. No caso de uma política pública como o programa Habitação Garantida, as relações de causa-efeito são complexas, distendidas no tempo e entrelaçadas com fatores externos.\n\nPara lidar com tamanho desafio, desenvolveram-se nas últimas décadas diferentes abordagens metodológicas.",
+    "question_multiple": "Qual delas é a escolhida pela equipa de Ema?",
     "options": [
       "Avaliação experimental ou quasi-experimental",
       "Avaliação baseada na teoria",
@@ -130,81 +172,65 @@
       "Avaliação de casos comparados"
     ],
     "answer": [
-      "Avaliação baseada na teoria"
+      "Avaliação experimental ou quasi-experimental",
+      "Avaliação baseada na teoria",
+      "Avaliação de casos comparados"
     ],
     "explanations": {
-      "Avaliação experimental ou quasi-experimental": "Requer contrafactual rígido; nem sempre viável.",
-      "Avaliação baseada na teoria": "Foca-se nos mecanismos e cadeia causal, adequado a políticas complexas.",
-      "Avaliação estatística": "Limita-se a regularidades; pode não captar mecanismos.",
-      "Avaliação de casos comparados": "Boa para poucos casos, menos adequada aqui."
+      "Avaliação experimental ou quasi-experimental": "Avaliação experimental ou quasi-experimental » Lógica de inferência causal: contrafactual. [texto marcado a amarelo no texto original, será certo?]",
+      "Avaliação baseada na teoria": "Avaliação baseada na teoria » Lógica de inferência causal: generativa.",
+      "Avaliação estatística": "Avaliação estatística » Lógica de inferência causal: regularidade.",
+      "Avaliação de casos comparados": "Avaliação de casos comparados » Lógica de inferência causal: configuracional. [texto marcado a amarelo no texto original, será certo?]"
     },
     "button_answer": "Continuar"
   },
   {
-  "title": "Método de inferência causal",
-  "text": "Avaliar o impacto de uma política pública é particularmente exigente. Requer, desde logo, que a equipa de avaliação adote uma lógica de inferência causal, isto é, um modo de inferir a causalidade entre a intervenção e o seu impacto. No caso de uma política pública como o programa Habitação Garantida, as relações de causa-efeito são complexas, distendidas no tempo e entrelaçadas com fatores externos.\n\nPara lidar com tamanho desafio, desenvolveram-se nas últimas décadas diferentes abordagens metodológicas.",
-  "question_multiple": "Qual delas é a escolhida pela equipa de Ema?",
-  "options": [
-    "Avaliação experimental ou quasi-experimental",
-    "Avaliação baseada na teoria",
-    "Avaliação estatística",
-    "Avaliação de casos comparados"
-  ],
-  "answer": [
-    "Avaliação baseada na teoria"
-  ],
-  "explanations": {
-    "Avaliação experimental ou quasi-experimental": "Lógica de inferência causal: contrafactual. Requer contrafactual rígido; nem sempre viável.",
-    "Avaliação baseada na teoria": "Lógica de inferência causal: generativa. Foca-se nos mecanismos e cadeia causal, adequado a políticas complexas.",
-    "Avaliação estatística": "Lógica de inferência causal: regularidade. Limita-se a regularidades; pode não captar mecanismos.",
-    "Avaliação de casos comparados": "Lógica de inferência causal: configuracional. Boa para poucos casos, menos adequada aqui."
-  },
-  "button_answer": "Continuar"
-    },
-  {
-    "title": "Princípios éticos em jogo",
-    "text": "A equipa decidiu que recolherá dados através de:\n1. Análise da base de dados do programa, incluindo indicadores de execução e perfil dos beneficiários.\n2. Um questionário a aplicar aos beneficiários do Habitação Garantida.\n3. Grupos de discussão com técnicos.\n4. Observação em três locais distintos.\nEstes dados serão analisados através das técnicas de…",
+    "id": "section_12",
+    "title": "[sem título disponível no texto original] Dilemas éticos durante a avaliação",
+    "text": "Todos os aspetos técnicos da avaliação estão agora definidos e encontram-se plasmados num documento sucinto, de livre acesso: o Plano de Avaliação do Programa Habitação Garantida.\n\nGuiando-se pelo referido plano, a equipa dedica as semanas seguintes a recolher e analisar os dados.\n\nDurante todo o trabalho, a Ema mantém-se consciente da necessidade imperiosa de salvaguardar os princípios éticos da avaliação de políticas públicas. Em diferentes momentos, ocorrem percalços que ameaçam esses princípios. Quais são os princípios ameaçados?",
     "script_path": "src/etica_interativa.py",
-    "button_text": "Explorar"
+    "button_text": "Continuar"
   },
   {
-    "title": "Gestão da controvérsia mediática",
-    "question": "A versão final do relatório da avaliação é divulgado publicamente. O assunto merece notícias em todos os jornais. Levanta-se um grande alvoroço. Uma organização de proprietários exprime o seu descontentamento com os resultados da avaliação. Uma associação de inquilinos declara que apoia algumas das recomendações da avaliação, mas discorda de outras. O parlamento discute acaloradamente qual deve ser o futuro do programa Habitação Garantida à luz da avaliação realizada. A oposição exige saber o que pretende o governo fazer a este respeito. Um comentador televisivo culpa a equipa de avaliação pelo alvoroço causado.O que faz a Ema?",
+    "id": "section_13",
+    "title": "[sem título disponível no texto original] Reação ao debate público",
+    "question": "A versão final do relatório da avaliação é divulgado publicamente.\nO assunto merece notícias em todos os jornais. Levanta-se um grande alvoroço. Uma organização de proprietários exprime o seu descontentamento com os resultados da avaliação. Uma associação de inquilinos declara que apoia algumas das recomendações da avaliação, mas discorda de outras.\nO parlamento discute acaloradamente qual deve ser o futuro do programa Habitação Garantida à luz da avaliação realizada. A oposição exige saber o que pretende o governo fazer a este respeito. Um comentador televisivo culpa a equipa de avaliação pelo alvoroço causado.\nO que faz a Ema?",
     "options": [
-      "Ir à televisão minimizar o debate",
-      "Escrever um artigo esclarecendo diferenças entre avaliação e opinião pessoal",
-      "Pedir aumento por stress",
+      "Vai à televisão explicar que a avaliação de uma política pública é uma atividade de natureza técnica e, portanto, não justifica todo o debate que se criou.",
+      "Escreve um artigo para publicação num jornal, no qual clarifica as diferenças entre os resultados da avaliação e as suas próprias opiniões sobre o assunto.",
+      "Pede um aumento do ordenado devido ao elevado stress que a situação está a provocar a si e aos restantes membros da equipa de avaliação.",
       "Nada"
     ],
     "answer": [
       "Nada"
     ],
     "explanations": {
-      "Ir à televisão minimizar o debate": "Poderia reduzir credibilidade.",
-      "Escrever um artigo esclarecendo diferenças entre avaliação e opinião pessoal": "Promove transparência e compreensão pública.",
-      "Pedir aumento por stress": "Assunto salarial não resolve problema.",
+      "Vai à televisão explicar que a avaliação de uma política pública é uma atividade de natureza técnica e, portanto, não justifica todo o debate que se criou.": "[sem explicação disponível no texto original]",
+      "Escreve um artigo para publicação num jornal, no qual clarifica as diferenças entre os resultados da avaliação e as suas próprias opiniões sobre o assunto.": "[sem explicação disponível no texto original]",
+      "Pede um aumento do ordenado devido ao elevado stress que a situação está a provocar a si e aos restantes membros da equipa de avaliação.": "[sem explicação disponível no texto original]",
       "Nada": "Notando que alguns membros da equipa estão nervosos com o sucedido, tranquiliza-os: o trabalho está feito e bem feito, o debate público é saudável. Jantam juntos para celebrar a conclusão da avaliação. No dia seguinte, iniciarão uma avaliação de outra política pública que acaba de lhes ser solicitada."
     },
     "button_answer": "Continuar"
   },
-    {
-    "title": "Seguimento das recomendações",
-    "question": "Com base nos resultados e recomendações da avaliação, o programa Habitação Garantida manteve-se em vigor, embora com ajustamentos no conteúdo de algumas medidas e nos seus modos de implementação.\n\nPassaram-se seis meses. A Ema está em reunião com a diretora e vários colegas.\n\n– Ema – diz a diretora –, gostaria que convidássemos os diferentes serviços envolvidos na implementação do programa Habitação Garantida para aferirmos, em conjunto, se têm existido dificuldades na incorporação das recomendações da avaliação que realizámos e como poderão essas dificuldades ser superadas.\n\nO que deve responder a Ema?",
+  {
+    "id": "section_14",
+    "title": "[sem título disponível no texto original] Acompanhamento das recomendações",
+    "question": "Com base nos resultados e recomendações da avaliação, o programa Habitação Garantida manteve-se em vigor, embora com ajustamentos no conteúdo de algumas medidas e nos seus modos de implementação.\n\nPassaram-se seis meses. A Ema está em reunião com a diretora e vários colegas.\n\n– Ema – diz a diretora –, gostaria que convidássemos os diferentes serviços envolvidos na implementação do programa Habitação Garantida para aferirmos, em conjunto, se têm existido dificuldades na incorporação das recomendações da avaliação que realizámos e como poderão essas dificuldades ser superadas.\n\nO que responde a Ema?",
     "options": [
-        "Isso não é competência da equipa de avaliação",
-        "Enviar apenas um questionário",
-        "Só agir se soubermos de alguma recomendação não aplicada",
-        "Parece-me uma excelente ideia! Vou já tratar disso."
+      "Com o devido respeito, Sra. Diretora, isso já não é competência da equipa de avaliação.",
+      "Sugiro, em alternativa, enviarmos apenas um questionário a esses serviços, pedindo-lhes que marquem com uma cruz quais as recomendações incorporadas e não incorporadas.",
+      "Julgo que só devemos agir caso saibamos de alguma recomendação em concreto que não está a ser colocada em prática.",
+      "Parece-me uma excelente ideia! Vou já tratar disso."
     ],
     "answer": [
-        "Parece-me uma excelente ideia! Vou já tratar disso."
+      "Parece-me uma excelente ideia! Vou já tratar disso."
     ],
     "explanations": {
-        "Isso não é competência da equipa de avaliação": "Contraria a função de apoio à implementação.",
-        "Enviar apenas um questionário": "Solução limitada.",
-        "Só agir se soubermos de alguma recomendação não aplicada": "Reativo.",
-        "Parece-me uma excelente ideia! Vou já tratar disso.": "A avaliação é, acima de tudo, um instrumento de aprendizagem. A equipa de avaliação deve preocupar-se com o modo como as recomendações da avaliação são compreendidas e incorporadas pelas instituições relevantes, tomando a iniciativa de manifestar a sua disponibilidade para apoiá-las nesse aspeto."
+      "Com o devido respeito, Sra. Diretora, isso já não é competência da equipa de avaliação.": "[sem explicação disponível no texto original]",
+      "Sugiro, em alternativa, enviarmos apenas um questionário a esses serviços, pedindo-lhes que marquem com uma cruz quais as recomendações incorporadas e não incorporadas.": "[sem explicação disponível no texto original]",
+      "Julgo que só devemos agir caso saibamos de alguma recomendação em concreto que não está a ser colocada em prática.": "[sem explicação disponível no texto original]",
+      "Parece-me uma excelente ideia! Vou já tratar disso.": "A avaliação é, acima de tudo, um instrumento de aprendizagem. A equipa de avaliação deve preocupar-se com o modo como as recomendações da avaliação são compreendidas e incorporadas pelas instituições relevantes, tomando a iniciativa de manifestar a sua disponibilidade para apoiá-las nesse aspeto."
     },
     "button_answer": "Concluir"
-    }
+  }
 ]

@@ -1,12 +1,12 @@
 # main.py
 import streamlit as st
 from src.components import render_static_content, render_question_content, render_script_content, render_navigation_buttons, load_quiz_data
-from src.features.sidebar import configure_sidebar, render_progress_indicator, render_section_navigation, render_current_section_info
-
+from src.features.sidebar import configure_sidebar, render_progress_indicator
 def run():
     st.set_page_config(
         page_title="Guia para a Avaliação de Políticas Públicas",
         page_icon="🎯",
+        initial_sidebar_state="collapsed"
     )
 
     # CSS personalizado para os botões
@@ -42,8 +42,7 @@ def run():
     # Configurar sidebar com funcionalidades avançadas
     configure_sidebar()
     render_progress_indicator()
-    render_current_section_info()
-    render_section_navigation()
+
 
     if current_section < len(section_structure):
         render_section(section_structure[current_section])

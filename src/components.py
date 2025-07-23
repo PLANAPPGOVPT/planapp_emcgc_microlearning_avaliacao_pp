@@ -33,23 +33,24 @@ def render_question_content(section):
             correct_count = 0
             incorrect_count = 0
 
+            # Contar respostas corretas e incorretas
             for option in selected_options:
-                explanation = section["explanations"].get(option, "")
                 if option in section["answer"]:
-                    st.success(f"{option}: {explanation}")
                     correct_count += 1
                 else:
-                    st.error(f"{option}: {explanation}")
                     incorrect_count += 1
 
-            # Lógica diferente para questões simples vs múltiplas
+            # Verificar se acertou completamente
+            is_fully_correct = False
             if question_key == "question":  # Resposta única
-                if correct_count == 1 and incorrect_count == 0:
+                is_fully_correct = correct_count == 1 and incorrect_count == 0
+                if is_fully_correct:
                     feedback_placeholder.success("Resposta correta!")
                 else:
                     feedback_placeholder.error("Resposta incorreta.")
             else:  # Múltiplas respostas
-                if correct_count == len(section["answer"]) and incorrect_count == 0:
+                is_fully_correct = correct_count == len(section["answer"]) and incorrect_count == 0
+                if is_fully_correct:
                     feedback_placeholder.success("Todas as respostas estão corretas!")
                 elif correct_count > 0 and incorrect_count > 0:
                     feedback_placeholder.warning("Existem respostas corretas, mas também existem respostas incorretas.")
@@ -60,22 +61,66 @@ def render_question_content(section):
                 else:
                     feedback_placeholder.error("Existem respostas incorretas.")
             
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                if st.button(section.get("button_answer", "Continuar")):
-                    st.session_state.current_section += 1
-                    st.session_state.response_submitted = False
-                    st.rerun()  # Changed from st.experimental_rerun() to st.rerun()
-            with col2:
-                if st.button("Tentar novamente"):
-                    st.session_state.response_submitted = False
-                    st.rerun()  # Changed from st.experimental_rerun() to st.rerun()
-            if st.session_state.current_section > 0:
-                with col3:
-                    if st.button("Voltar"):
-                        st.session_state.current_section -= 1
+            # Quando acerta, mostrar explicações de todas as opções (corretas e incorretas)
+            if is_fully_correct:
+                st.markdown("---")
+                st.markdown("### 💡 **Explicações de todas as opções:**")
+                
+                # Mostrar opções corretas
+                st.success("✅ **Opções corretas:**")
+                for option in section["answer"]:
+                    explanation = section["explanations"].get(option, "")
+                    st.write(f"• **{option}**: {explanation}")
+                
+                # Mostrar opções incorretas (se existirem)
+                incorrect_options = [opt for opt in options if opt not in section["answer"]]
+                if incorrect_options:
+                    st.error("❌ **Opções incorretas:**")
+                    for option in incorrect_options:
+                        explanation = section["explanations"].get(option, "")
+                        st.write(f"• **{option}**: {explanation}")
+            else:
+                # Quando não acerta, mostrar apenas o feedback das opções selecionadas (como antes)
+                for option in selected_options:
+                    explanation = section["explanations"].get(option, "")
+                    if option in section["answer"]:
+                        st.success(f"{option}: {explanation}")
+                    else:
+                        st.error(f"{option}: {explanation}")
+            
+            # Botões de navegação
+            if is_fully_correct:
+                # Quando acerta, só mostra botão continuar (sem "tentar novamente")
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button(section.get("button_answer", "Continuar")):
+                        st.session_state.current_section += 1
                         st.session_state.response_submitted = False
-                        st.rerun()  # Changed from st.experimental_rerun() to st.rerun()
+                        st.rerun()
+                if st.session_state.current_section > 0:
+                    with col2:
+                        if st.button("Voltar"):
+                            st.session_state.current_section -= 1
+                            st.session_state.response_submitted = False
+                            st.rerun()
+            else:
+                # Quando não acerta, mostra botões continuar, tentar novamente e voltar
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    if st.button(section.get("button_answer", "Continuar")):
+                        st.session_state.current_section += 1
+                        st.session_state.response_submitted = False
+                        st.rerun()
+                with col2:
+                    if st.button("Tentar novamente"):
+                        st.session_state.response_submitted = False
+                        st.rerun()
+                if st.session_state.current_section > 0:
+                    with col3:
+                        if st.button("Voltar"):
+                            st.session_state.current_section -= 1
+                            st.session_state.response_submitted = False
+                            st.rerun()
 def render_static_content(section):
     """Render title, image, and text from the section."""
     if "title" in section:
